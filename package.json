@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "scripts": {"dev": "vite", "build": "vite build && node -e \"const fs=require('fs'); for(const d of ['dist/demo','dist/demo/share']) fs.mkdirSync(d,{recursive:true}); for(const f of ['dist/404.html','dist/demo/index.html','dist/demo/share/index.html']) fs.copyFileSync('dist/index.html',f)\"", "preview": "vite preview"},
+  "scripts": {"dev": "vite", "build": "vite build && node -e \"const fs=require('fs'); for(const d of ['dist/demo','dist/demo/share','dist/demo/admin']) fs.mkdirSync(d,{recursive:true}); for(const f of ['dist/404.html','dist/demo/index.html','dist/demo/share/index.html','dist/demo/admin/index.html']) fs.copyFileSync('dist/index.html',f)\"", "preview": "vite preview"},
   "dependencies": {"@vitejs/plugin-react": "latest", "qrcode": "latest", "react": "latest", "react-dom": "latest", "lucide-react": "latest"},
   "devDependencies": {"vite": "latest", "typescript": "latest"}
 }
